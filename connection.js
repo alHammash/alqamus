@@ -12,8 +12,8 @@ var mysql = require('mysql');
 var conn = mysql.createPool({
     connectionLimit: 1000, //important
     host: 'localhost',
-    user: 'root',
-    password: '',
+    user: 'alqamus',
+    password: 'alqamus',
     database: 'alqamus',
     debug: false
 });
